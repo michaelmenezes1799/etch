@@ -1,0 +1,1 @@
+Creating an etch-a-sketch web-app to practice DOM manipulation.

@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+}
+
+#container {
+    border: 2px solid white;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+}
+
+.gridSquare {
+    border: 1px solid white;
+    flex: 1;
+
+    
+    
+}
