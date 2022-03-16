@@ -25,9 +25,12 @@ body {
 }
 
 .gridSquare {
-    border: 1px solid white;
-    flex: 1;
-
     
     
+    flex: 1;      
 }
+
+.white {
+    background-color: white;
+}
+
