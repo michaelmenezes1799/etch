@@ -22,15 +22,43 @@ body {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
+    margin-bottom: 20px;
+
 }
 
-.gridSquare {
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+#reset {
+    color: white;
+}
+
+#reset,
+#classic,
+#funky {
     
+    border: 2px solid white;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+#reset:hover,
+#classic:hover,
+#funky:hover {
+    transform: scale(1.1);
+}
+
+.active {
+    background-color: white; 
+    color: black;
     
-    flex: 1;      
 }
-
-.white {
-    background-color: white;
+.inactive {
+    background-color: black;
+     color: white;
 }
-
